@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ==============Header Area============ */
+header{
+    padding: 20px 60px;
+}
+
+/*--- navbar ---*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list>ul>li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.primary-btn{
+    padding: .8em 2em;
+    border: none;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* ===========Banner Area========== */
